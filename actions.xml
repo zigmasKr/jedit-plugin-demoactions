@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE ACTIONS SYSTEM "actions.dtd">
+<ACTIONS>
+	<ACTION NAME="demoactions.threads-demo">
+		<!--
+		<CODE>(new demoactions.ThreadsDemo(2000, "aaa aaa aaa aaa", "BBB")).startDemo();</CODE>
+		-->
+		<CODE>new demoactions.ThreadsDemoInputDialog();</CODE>
+	</ACTION>
+	<ACTION NAME="demoactions.list-engines">
+		<CODE>(new demoactions.ListEngines()).doThreadEngineList();</CODE>
+	</ACTION>
+</ACTIONS>

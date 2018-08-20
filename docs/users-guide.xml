@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><book>
+  <bookinfo>
+	 <title>Demo Actions Plugin</title>
+	 <author>
+		  <firstname>Zigmantas</firstname><surname>Kry&#382;ius</surname>
+	 </author>
+  </bookinfo>
+  <chapter id="overview">
+	 <title>Overview</title>
+	 <para> The "Demo Actions" plugin is a demo or "dummy" plugin. For a
+	 (self-)educational purpose. </para>
+  </chapter>
+  <chapter id="actions">
+	<title>What are plugin's actions</title>
+	<para>The menu item <emphasis>Buttons AB Demo</emphasis> opens the dockable window with two buttons on a panel.
+	Action listeners are attached to these buttons.</para>
+	<para>The menu item <emphasis>Threads Demo</emphasis> opens the frame with the title <emphasis>Threads Demo Input Dialog</emphasis>.
+	The components in this frame are arranged using <computeroutput>GridBagLayout</computeroutput>. The fields of
+	this dialog serve to get input to two runnables running in parallel threads.
+	The runnables loop appending strings into one <computeroutput>StringBuffer</computeroutput> which is finally
+	inserted in a new buffer of jEdit.</para>
+	<para>The menu item <emphasis>List Engines</emphasis> inserts in a new buffer the list of scripting engines that are
+	``visible'' from the plugin.</para>
+  </chapter>
+  <chapter id="contacts">
+	 <title>Contacts</title>
+	 <para> Author's contact: <email id="email">zigmas.kr@gmail.com</email>.
+	 </para>
+  </chapter>
+</book>

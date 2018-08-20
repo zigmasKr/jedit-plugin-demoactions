@@ -1,0 +1,26 @@
+# plugin properties:
+plugin.demoactions.DemoActionsPlugin.name=Demo Actions
+plugin.demoactions.DemoActionsPlugin.author=ZiKr
+plugin.demoactions.DemoActionsPlugin.version=1.2
+plugin.demoactions.DemoActionsPlugin.activate=defer
+
+# dependencies:
+plugin.demoactions.DemoActionsPlugin.depend.0=jdk 1.8
+plugin.demoactions.DemoActionsPlugin.depend.1=jedit 05.03.00.00
+
+# plugin HELP:
+plugin.demoactions.DemoActionsPlugin.docs=docs/index.html
+# text appearing at the bottom of "Plugin Manager" window:
+plugin.demoactions.DemoActionsPlugin.description=Demo Actions plugin demonstrates clickable buttons in a dockable window, and other simple Java programs.
+
+# menu settings:
+plugin.demoactions.DemoActionsPlugin.menu=demoactions - \
+	demoactions.threads-demo - \
+	demoactions.list-engines
+demoactions.label=Buttons AB Demo
+demoactions.threads-demo.label=Threads Demo
+demoactions.list-engines.label=List Engines
+
+# title showing on plugin's dockable window:
+demoactions.title=Demo: Buttons AB
+
